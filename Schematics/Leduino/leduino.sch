@@ -639,10 +639,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <devices>
 <device name="" package="SO8">
 <connects>
-<connect gate="G$1" pin="D" pad="5 6"/>
+<connect gate="G$1" pin="D" pad="7 8"/>
 <connect gate="G$1" pin="G" pad="2"/>
 <connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$2" pin="D" pad="7 8"/>
+<connect gate="G$2" pin="D" pad="5 6"/>
 <connect gate="G$2" pin="G" pad="4"/>
 <connect gate="G$2" pin="S" pad="3"/>
 </connects>
@@ -8638,14 +8638,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="JP2" library="Leduino" deviceset="PINHD-1X6" device="3.5MM-RA"/>
 <part name="JP3" library="Leduino" deviceset="PINHD-1X6" device="3.5MM-RA"/>
 <part name="JP4" library="Leduino" deviceset="PINHD-1X6" device="3.5MM-RA"/>
-<part name="U$3" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$4" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$5" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$6" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$7" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$8" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$9" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
-<part name="U$10" library="Leduino" deviceset="DMN6040SSD" device="" value=""/>
+<part name="U$3" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$4" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$5" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$6" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$7" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$8" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$9" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
+<part name="U$10" library="Leduino" deviceset="DMN6040SSD" device="" value="DMN6040SSD"/>
 <part name="C2" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$11" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="MIC5219-5.0YM5"/>
@@ -8886,6 +8886,9 @@ PCA chip and Yun</text>
 <pinref part="U$3" gate="G$2" pin="S"/>
 <pinref part="U$4" gate="G$1" pin="S"/>
 <pinref part="U$4" gate="G$2" pin="S"/>
+<junction x="96.52" y="-25.4"/>
+<junction x="96.52" y="-15.24"/>
+<junction x="96.52" y="-5.08"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -8900,6 +8903,9 @@ PCA chip and Yun</text>
 <pinref part="U$5" gate="G$2" pin="S"/>
 <pinref part="U$6" gate="G$1" pin="S"/>
 <pinref part="U$6" gate="G$2" pin="S"/>
+<junction x="96.52" y="-83.82"/>
+<junction x="96.52" y="-73.66"/>
+<junction x="96.52" y="-63.5"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -8915,6 +8921,9 @@ PCA chip and Yun</text>
 <pinref part="U$7" gate="G$2" pin="S"/>
 <pinref part="U$8" gate="G$1" pin="S"/>
 <pinref part="U$8" gate="G$2" pin="S"/>
+<junction x="160.02" y="-5.08"/>
+<junction x="160.02" y="-15.24"/>
+<junction x="160.02" y="-25.4"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -8930,6 +8939,9 @@ PCA chip and Yun</text>
 <pinref part="U$9" gate="G$2" pin="S"/>
 <pinref part="U$10" gate="G$1" pin="S"/>
 <pinref part="U$10" gate="G$2" pin="S"/>
+<junction x="160.02" y="-83.82"/>
+<junction x="160.02" y="-73.66"/>
+<junction x="160.02" y="-63.5"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
@@ -9014,6 +9026,7 @@ PCA chip and Yun</text>
 <wire x1="60.96" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="-2.54" x2="60.96" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="60.96" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
@@ -9029,6 +9042,9 @@ PCA chip and Yun</text>
 <wire x1="-20.32" y1="-38.1" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="-38.1" x2="-15.24" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-15.24" y="-33.02"/>
+<junction x="-20.32" y="-33.02"/>
+<junction x="0" y="-33.02"/>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="1"/>
@@ -9443,6 +9459,17 @@ PCA chip and Yun</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-27.94,-66.04,RN1A,2,,,,"/>
+<approved hash="104,1,10.16,-33.02,U$12,VDD,VCC,,,"/>
+<approved hash="113,1,30.48,-44.9368,U$12,,,,,"/>
+<approved hash="113,1,114.537,7.75123,JP1,,,,,"/>
+<approved hash="113,1,114.537,-50.6688,JP2,,,,,"/>
+<approved hash="113,1,178.037,7.75123,JP3,,,,,"/>
+<approved hash="113,1,178.037,-50.6688,JP4,,,,,"/>
+<approved hash="113,1,91.6771,59.8212,JP6,,,,,"/>
+<approved hash="113,1,-33.02,-51.6805,RN1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
