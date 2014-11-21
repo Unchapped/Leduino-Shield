@@ -1,0 +1,2 @@
+External Driver setup in PCA9685 datasheet table 11
+Using setup [3] with NMOS drivers, no pullup resistors needed.
