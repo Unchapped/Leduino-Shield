@@ -1267,7 +1267,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMN6040SSD">
+<deviceset name="DMN6040SSD" prefix="U">
 <gates>
 <gate name="G$1" symbol="NMOSFET" x="0" y="7.62" swaplevel="1"/>
 <gate name="G$2" symbol="NMOSFET" x="0" y="-7.62" swaplevel="1"/>
@@ -1493,7 +1493,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_R3_SHIELD">
+<deviceset name="ARDUINO_R3_SHIELD" prefix="S">
 <description>Shield form compatible with the Arduino Uno R3.</description>
 <gates>
 <gate name="G$1" symbol="ARDUINO_R3_SHIELD" x="0" y="0"/>
