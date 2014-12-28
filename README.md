@@ -1,6 +1,6 @@
-Leduino Sheild
+Leduino Shield
 =======
-The Leduino sheild is a high-current PWM driver for commonly available 12V Tri-color LED strips and Modules. It is based on the [Adafruit PWM Servo Sheild](http://www.adafruit.com/product/1411) and is compatible with their drivers. Some Library components were also sourced from the Sparkfun EAGLE Libraries.
+The Leduino shield is a high-current PWM driver for commonly available 12V Tri-color LED strips and Modules. It is based on the [Adafruit PWM Servo Sheild](http://www.adafruit.com/product/1411) and is compatible with their drivers. Some Library components were also sourced from the Sparkfun EAGLE Libraries.
 
 Links
 ======
